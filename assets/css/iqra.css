@@ -1,0 +1,285 @@
+.d-flex.flex-column.align-items-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.star-rating {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.star-rating label {
+  margin-left: 5px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+/* Reaturn Policy------------------------------------ */
+.return-para {
+  color: #79767d;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-top: 13px;
+}
+
+/* ---------------------form-------------------------------- */
+.wrapper {
+  background: var(--white);
+  padding: 2rem;
+  max-width: 576px;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #f1f1f1;
+}
+
+.wrapper h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  color: #1e1e1e;
+}
+
+.rating-othr {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-gap: 0.5rem;
+  font-size: 2rem;
+  color: var(--yellow);
+  margin-bottom: 2rem;
+}
+
+.rating-othr .star {
+  cursor: pointer;
+}
+
+.rating-othr .star.active {
+  opacity: 0;
+  animation: animate 0.5s calc(var(--i) * 0.1s) ease-in-out forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.rating-othr .star:hover {
+  transform: scale(1.1);
+}
+
+textarea {
+  width: 100%;
+  background: #f2f1f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.btn-group {
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-group .btn {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.btn-group .btn.submit {
+  background: #1e1e1e;
+  color: var(--white);
+}
+
+.btn-group .btn.submit:hover {
+  background: var(--blue-d-1);
+}
+
+.btn-group .btn.cancel {
+  background: var(--white);
+  color: var(--blue);
+}
+
+.btn-group .btn.cancel:hover {
+  background: var(--light);
+}
+
+.form-othr-hdg {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* -------------------------About us--------------------------------*/
+.about-hdg {
+  color: #1e1e1e;
+  font-weight: 500;
+  font-family: "Epilogue", sans-serif;
+  margin-top: 20px;
+}
+
+.about-para {
+  font-size: 19px;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .about-para {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.main-hdg-about {
+  color: #1d1d1d;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+}
+
+.para-about-mission {
+  color: #434145;
+  font-size: 16px;
+  /* text-align: justify; */
+  font-weight: 300;
+}
+
+.about-content {
+  /* border: 2px solid #1e1e1e;
+  border-radius: 31px;
+  padding: 61px 65px; */
+  text-align: center;
+
+}
+
+.about-content-hdg {
+  color: #1d1d1d;
+  font-size: 32px;
+  font-weight: 600;
+  /* padding-bottom: 14px; */
+  font-family: "Epilogue", sans-serif;
+}
+
+/* ------------------Contact Page----------------------- */
+.contact-colour-hdg {
+  color: #1e1e1e;
+}
+
+.contact-hdg-h1 {
+  font-size: 13px;
+  color: #1e1e1e;
+  font-weight: 400;
+  margin-bottom: 4px;
+  font-family: "Epilogue", sans-serif;
+}
+
+.form-input-othr {
+  background: #ffffff;
+  width: 100%;
+  padding: 13px !important;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #1e1e1e;
+  font-family: "Epilogue", sans-serif;
+}
+
+.contact-submit {
+  width: auto;
+  padding: 0px 50px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+/* ----------------------------------wish list page------------------ */
+.wishlist-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.wishlist-details {
+  display: flex;
+  align-items: center;
+}
+
+.wishlist-details img {
+  margin-right: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.wishlist-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.wishlist-actions {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 10px 10px 8px 20px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 18px;
+}
+
+.wishlist-add {
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.wishlist-hdg-h6 {
+  color: #79767d;
+}
+
+/* ---------------------Blog ------------------------------------ */
+
+.blog-hdg {
+  color: #000000;
+  font-size: 36px;
+  line-height: 36.9px;
+}
+
+.share-blogs {
+  font-size: 16px;
+  color: #1E1E1E;
+  padding: 6px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.shubhangi-name {
+  font-size: 20px;
+}

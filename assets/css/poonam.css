@@ -1,0 +1,104 @@
+.login-card {
+    padding: 37px 55px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #fafafa;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.login-card .l-group .l-logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-card .l-input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ededed;
+    padding: 12px 15px;
+    border-radius: 9px;
+}
+
+.login-card label {
+    display: block;
+    text-align: left;
+    color: #1e1e1e;
+    font-weight: 500;
+    padding-left: 7px;
+    margin-bottom: 10px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.login-card .l-btn {
+    background: #000;
+    border-radius: 50px;
+    width: 100% !important;
+    height: 50px;
+}
+
+.login-card .line {
+    background: #C1C0C3;
+    height: 1px;
+    width: 90px;
+}
+
+.or-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-card .l-border-btn {
+    background: transparent;
+    border-radius: 50px;
+    width: 100% !important;
+    border: 1px solid #000;
+    color: #000;
+    height: 50px;
+    line-height: 48px;
+}
+
+.cate-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.p-images {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    height: 280px;
+}
+
+.bg-btn-dark {
+    background-color: #1c1c1c !important;
+}
+
+.profile-label {
+    background: transparent;
+    text-align: left;
+    display: block;
+    color: #1e1e1e;
+    font-family: "Epilogue", sans-serif;
+}
+
+.profile-feild {
+    width: 100%;
+    border: 1px solid #78767d;
+    border-radius: 5px;
+    padding: 8px 11px;
+    height: 40px;
+    margin-bottom: 15px;
+    color: #1e1e1e;
+}
+
+@media (max-width: 991px) {
+    .cate-img {
+        height: 160px !important;
+    }
+}
